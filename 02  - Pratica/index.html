@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- encoding do site -->
+    <meta charset="UTF-8" />
+
+    <!-- Compatible para internet explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- ZOOM e Width inicial -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TW 20/21 - pratica 2</title>
+
+    <style>
+      /* elementos (5) < seletores (4) < classes (3) < ID's (2) < inline (1) */
+
+      /* ids fazem override as classes, seletores e elementos */
+      /* ids sao definidas com um ponto antes do nome */
+      #title {
+        color: orangered;
+      }
+	  
+      /* classes fazem override aos seletores e aos elementos */
+      /* classes sao definidas com um ponto antes do nome */
+      .header1 {
+        color: orange;
+      }
+
+      /* elementos sao definidas apenas com o seu nome */
+      h1 {
+        color: blue;
+		font-size: 40px;
+      }
+
+    </style>
+	<!-- import ficheiro css externo -->
+    <link rel="stylesheet" href="./main.css" />
+
+  <body>
+	<!-- style inline faz override a css definido por ID's, classes, seletores e elementos -->
+    <h1 class="header1" id="title" style="color: gray">Header 1</h1>
+
+	<!-- style aplicado por ID -->
+    <p id="bemVindos">Bem vindos a primeira aula pratica de css</p>
+
+    <!-- Exemplo classes -->
+	<!-- 1 -->
+    <h2 class="colorBlue">this text is blue</h2>
+	<!-- 2 -->
+    <h2 class="fontMedium">this text is medium</h2>
+	<!-- 3 -->
+    <h2 class="colorBlue fontMedium">this text is blue and medium</h2>
+	<!-- 4 -->
+	<div class="colorBlue">
+		<p class="fontMedium">asdasd</p>
+		<p class="fontMedium">asdasd</p>
+	</div>
+
+	<!-- /* START - classes seletores */ -->
+	<p>p1</p>
+	<p>p2</p>
+	<div>
+		<p>p3</p>
+		<p>p4</p>
+		<section>
+			<p>p5</p>
+			<p>p6</p>
+		</section>
+	</div>
+	<p>p10</p>
+	<p>p11</p>
+	<p>p12</p>
+	<!-- /* END  - classes seletores */ -->
+
+
+	<!-- /* START  - Pseudo Classes */ -->
+	<button disabled="disabled"> click me</button>
+	<button>click me</button>
+	<!-- /* END  - Pseudo Classes */ -->
+
+
+	<!-- /* START  - Display Flex  */ -->
+	<div class="bigBox">
+		<div class="box box1"> box1</div>
+		<div class="box box2"> box2</div>
+	</div>
+	<!-- /* END  - Display Flex  */ -->
+
+	<!-- /* START - AFTER and BEFORE  */ -->
+	<div >
+		<ol>
+			<li>
+				<a href="file.pdf"> ficheiro pdf</a>
+			</li>	
+			<li>
+				<a href="file.png"> foto perfil</a>
+			</li>	
+			<li>
+				<a href="file.doc"> notas finais word</a>
+			</li>
+		</ol>
+	</div>
+	<!-- /* END - AFTER and BEFORE  */ -->
+
+	<!-- /* START END - MEDIA QUERIES  */ -->  
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

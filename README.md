@@ -2,9 +2,14 @@
 
 :cloud: Repositório de recursos de apoio ao aluno.
 
+#### Semana 1 - 22-02
+
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark: 2021-02-24
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 1 - :heavy_check_mark: 2021-02-26
+
 #### Semana 2 - 01-03
 
-- &nbsp;&nbsp;&nbsp;&nbsp;PL 2 - :white_large_square: 2021-03-03
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 2 - :heavy_check_mark: 2021-03-03
 - &nbsp;&nbsp;&nbsp;&nbsp;TP 2 - :white_large_square: 2021-03-05
 
 <!--
