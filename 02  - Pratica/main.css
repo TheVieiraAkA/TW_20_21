@@ -4,27 +4,31 @@
   font-weight: 600;
 }
 
+/* 1 */
 .colorBlue {
   color: rgb(0, 153, 255);
 }
 
+/* 2 */
 .fontMedium {
   font-size: 18px;
 }
 
+/* 3 */
 /* css aplicado ao elemento que contenha ambas as classes */
 .colorBlue.fontMedium {
   color: rgb(0, 4, 255);
   font-size: 20px;
 }
 
+/* 4 */
 /* css aplicado a todos os elementos filhos que tenham a class "fontMedium" em que o pai tenha a class "colorBlue" */
 .colorBlue .fontMedium {
   color: rgb(0, 133, 51);
   font-size: 20px;
 }
 
-/* classes seletores */
+/* START - classes seletores */
 
 /* estilo aplicado a todos os paragrados */
 p {
@@ -57,15 +61,10 @@ div + p {
   color: rgb(212, 198, 0);
 }
 
-button:disabled {
-  background-color: aquamarine;
-}
+/* END  - classes seletores */
 
-p:hover {
-  background-color: lightblue;
-}
+/* START  - Pseudo Classes 
 
-/* 
 	:hover
 	:focus
 
@@ -78,7 +77,17 @@ p:hover {
 	:disabled
 	:required
 */
+button:disabled {
+  background-color: aquamarine;
+}
 
+p:hover {
+  background-color: lightblue;
+}
+
+/* END  - Pseudo Classes */
+
+/* START  - Display Flex  */
 .bigBox {
   display: flex;
 }
@@ -98,7 +107,9 @@ p:hover {
 .box2 {
   background-color: darkmagenta;
 }
+/* END  - Display Flex  */
 
+/* START - AFTER and BEFORE  */
 a[href$="pdf"]::before {
   content: "[pdf] ---> ";
 }
@@ -111,10 +122,13 @@ a[href$="doc"]::before {
   content: "f26e";
 }
 
+/* END  - AFTER and BEFORE  */
+
 body {
   background-color: #5e1515;
 }
 
+/* START  - MEDIA QUERIES  */
 /* CSS quando a página tem pelo menos 550px*/
 @media screen and (max-width: 480px) {
   body {
@@ -128,3 +142,4 @@ body {
     background-color: #7c7b7b;
   }
 }
+/* END  - MEDIA QUERIES  */
