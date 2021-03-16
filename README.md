@@ -57,7 +57,7 @@ unchecked- :white_large_square:
 
 ## Informações úteis
 
-:mailbox_with_mail: Email: vjo@ipvc.pt
+:mailbox_with_mail: Email: j.vieira@estg.ipvc.pt
 
 :mortar_board: Moodle: [Tecnologias Web 2020/2021](https://elearning.ipvc.pt/ipvc2020/course/view.php?id=1626)
 
