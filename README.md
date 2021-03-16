@@ -4,25 +4,27 @@
 
 #### Semana 1 - 22-02
 
-- &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark: 2021-02-24
-- &nbsp;&nbsp;&nbsp;&nbsp;TP 1 - :heavy_check_mark: 2021-02-26
+-   &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark: 2021-02-24
+-   &nbsp;&nbsp;&nbsp;&nbsp;TP 1 - :heavy_check_mark: 2021-02-26
 
 #### Semana 2 - 01-03
 
-- &nbsp;&nbsp;&nbsp;&nbsp;PL 2 - :heavy_check_mark: 2021-03-03
-- &nbsp;&nbsp;&nbsp;&nbsp;TP 2 - :white_large_square: 2021-03-05
+-   &nbsp;&nbsp;&nbsp;&nbsp;PL 2 - :heavy_check_mark: 2021-03-03
+-   &nbsp;&nbsp;&nbsp;&nbsp;TP 2 - :heavy_check_mark: 2021-03-05
+
+#### Semana 3 - 08-03
+
+-   &nbsp;&nbsp;&nbsp;&nbsp;PL 3 - :heavy_check_mark: 2021-03-10
+-   &nbsp;&nbsp;&nbsp;&nbsp;TP 3 - :heavy_check_mark: 2021-03-12
+
+#### Semana 4 - 15-03
+
+-   &nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :white_large_square: 2021-03-17
+-   &nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :white_large_square: 2021-03-19
 
 <!--
 checked  :heavy_check_mark:
 unchecked- :white_large_square:
-
-#### Semana 3 - 08-03
--	&nbsp;&nbsp;&nbsp;&nbsp;PL 3 - :white_large_square:
--	&nbsp;&nbsp;&nbsp;&nbsp;TP 3 - :white_large_square:
-
-#### Semana 4 - 15-03
--	&nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :white_large_square:
--	&nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :white_large_square:
 
 #### Semana 5 - 22-03
 -	&nbsp;&nbsp;&nbsp;&nbsp;PL 5 - :white_large_square:
