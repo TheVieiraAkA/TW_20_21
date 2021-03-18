@@ -19,7 +19,7 @@
 
 #### Semana 4 - 15-03
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :white_large_square: 2021-03-17
+-   &nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :heavy_check_mark: 2021-03-17
 -   &nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :white_large_square: 2021-03-19
 
 <!--
