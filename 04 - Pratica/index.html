@@ -11,8 +11,115 @@
 	<!-- https://www.flickr.com/services/apps/create/noncommercial -->
 	<!-- https://home.openweathermap.org/users/sign_up -->
 	<body style="padding: 50px">
-		<button type="button" class="btn btn-primary">AJAX Flickr</button>
+		<div style="display: flex">
+			<div style="width: 50%">
+				<label for="search">Images para procurar</label>
+				<br />
+				<input type="search" id="search" />
+				<button type="button" id="submitFlickr" class="btn btn-primary" onclick="searchFlickr();">
+					AJAX Flickr
+				</button>
+
+				<div id="photos"></div>
+			</div>
+			<div style="width: 50%">
+				<label for="search">Cidade para procurar</label>
+				<br />
+				<input type="search" id="searchMeteo" value="Viana do Castelo" />
+				<button type="button" id="submitFlickrMeteo" class="btn btn-primary" onclick="searchMeteo();">
+					AJAX Meteo
+				</button>
+
+				<div id="meteo"></div>
+			</div>
+		</div>
 	</body>
 
-	<script></script>
+	<script>
+		const searchFlickr = () => {
+			// inputs da dom para depois fazer a pesquisa
+			const search = $('#search');
+			const submitFlickr = $('#submitFlickr');
+			$('#photos').html('');
+
+			if (search.val() === '') return;
+
+			// disable inputs
+			search.prop('disabled', true);
+			submitFlickr.attr('disabled', true).html('Loading ...');
+
+			// ajax request
+			const configs = {
+				url: 'https://www.flickr.com/services/rest/',
+				data: {
+					api_key: 'a5dbe90ceeb8a3561dfc760ae33be5f7',
+					method: 'flickr.photos.search',
+					text: search.val(),
+					extras: 'url_m',
+					format: 'json',
+					page: '1',
+					per_page: '10',
+					nojsoncallback: '1'
+				},
+				method: 'GET',
+				dataType: 'JSON',
+				success: response => {
+					console.log(response);
+
+					// enable inputs
+					search.prop('disabled', false);
+					submitFlickr.attr('disabled', false).html('AJAX Flickr');
+
+					// take response and render on screen
+					response.photos.photo.forEach(payload => {
+						const newImage = $('<img>').attr('src', payload.url_m);
+						$('#photos').append(newImage);
+					});
+				}
+			};
+
+			$.ajax(configs);
+		};
+		const searchMeteo = () => {
+			// inputs da dom para depois fazer a pesquisa
+			const searchMeteo = $('#searchMeteo');
+			const submitFlickrMeteo = $('#submitFlickrMeteo');
+
+			if (searchMeteo.val() === '') return;
+
+			// disable inputs
+			searchMeteo.prop('disabled', true);
+			submitFlickrMeteo.attr('disabled', true).html('Loading ...');
+
+			// ajax request
+			const configs = {
+				url: 'https://api.openweathermap.org/data/2.5/weather',
+				data: {
+					q: searchMeteo.val(),
+					appid: 'a9e49b305a5d14cc0790dbf507251ca1',
+					units: 'metric',
+					lang: 'PT'
+				},
+				method: 'GET',
+				dataType: 'JSON',
+				success: response => {
+					console.log(response);
+					searchMeteo.prop('disabled', false);
+					submitFlickrMeteo.attr('disabled', false).html('AJAX Flickr');
+
+					const paragrafo =
+						'Agora em ' +
+						searchMeteo.val() +
+						' está ' +
+						response.weather[0].description +
+						' com temperatuda actual de: ' +
+						response.main.temp +
+						'ºC';
+					$('#meteo').html(paragrafo);
+				}
+			};
+
+			$.ajax(configs);
+		};
+	</script>
 </html>
