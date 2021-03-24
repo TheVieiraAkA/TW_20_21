@@ -20,15 +20,16 @@
 #### Semana 4 - 15-03
 
 -   &nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :heavy_check_mark: 2021-03-17
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :white_large_square: 2021-03-19
+-   &nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :heavy_check_mark: 2021-03-19
+
+#### Semana 5 - 22-03
+
+-   &nbsp;&nbsp;&nbsp;&nbsp;PL 5 - :white_large_square:
+-   &nbsp;&nbsp;&nbsp;&nbsp;TP 5 - :white_large_square:
 
 <!--
 checked  :heavy_check_mark:
 unchecked- :white_large_square:
-
-#### Semana 5 - 22-03
--	&nbsp;&nbsp;&nbsp;&nbsp;PL 5 - :white_large_square:
--	&nbsp;&nbsp;&nbsp;&nbsp;TP 5 - :white_large_square:
 
 #### Semana 6 - 29-03
 -	&nbsp;&nbsp;&nbsp;&nbsp;PL 6 - :white_large_square:
