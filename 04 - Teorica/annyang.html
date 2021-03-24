@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+		<script src="./jquery/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		<div id="helloContainer"></div>
+	</body>
+	<script>
+		if (annyang) {
+			// Let's define our first command. First the text we expect, and then the function it should call
+			var commands = {
+				hello: function () {
+					$('#helloContainer').html('Hello World');
+				}
+			};
+
+			// Add our commands to annyang
+			annyang.addCommands(commands);
+
+			// Start listening. You can call this here, or attach this call to an event, button, etc.
+			annyang.start();
+		}
+	</script>
+</html>
