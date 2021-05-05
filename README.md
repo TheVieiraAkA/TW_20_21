@@ -4,53 +4,58 @@
 
 #### Semana 1 - 22-02
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark:
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 1 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 1 - :heavy_check_mark:
 
 #### Semana 2 - 01-03
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 2 - :heavy_check_mark:
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 2 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 2 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 2 - :heavy_check_mark:
 
 #### Semana 3 - 08-03
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 3 - :heavy_check_mark:
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 3 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 3 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 3 - :heavy_check_mark:
 
 #### Semana 4 - 15-03
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :heavy_check_mark:
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 4 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 4 - :heavy_check_mark:
 
 #### Semana 5 - 22-03
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 5 - :heavy_check_mark:
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 5 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 5 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 5 - :heavy_check_mark:
 
 #### Semana 6 - 29-03
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 6 - Pascoa
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 6 - Pascoa
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 6 - Pascoa
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 6 - Pascoa
 
 #### Semana 7 - 05-04
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 7 - :heavy_check_mark:
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 7 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 7 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 7 - :heavy_check_mark:
 
 #### Semana 8 - 12-04
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 8 - Apresentação Trabalho Pratico 1
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 8 - :heavy_check_mark: php intro
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 8 - Apresentação Trabalho Pratico 1
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 8 - :heavy_check_mark: php intro
 
 #### Semana 9 - 19-04
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - :heavy_check_mark: php intro exercicios
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :heavy_check_mark: php intro conclusão
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - :heavy_check_mark: php intro exercicios
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :heavy_check_mark: php intro conclusão
 
 #### Semana 10 - 26-04
 
--   &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - Jornadas Multimédia
--   &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :heavy_check_mark: php intro exercicios conclusao
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - Jornadas Multimédia
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :heavy_check_mark: php intro conslusao, inicio de login
+
+#### Semana 11 - 02-05
+
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - :heavy_check_mark: php login conslusao
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :white_large_square: php sessoes
 
 <!--
 checked  :heavy_check_mark:
