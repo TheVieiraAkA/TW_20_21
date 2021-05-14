@@ -1,0 +1,32 @@
+body {
+  background-color: cornflowerblue;
+}
+#pagehead {
+  background-color: orange;
+}
+.chave ul {
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+}
+.chave ul li {
+  display: table-cell;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: black;
+  vertical-align: middle;
+}
+.chave ul.estrelas li {
+  background-color: yellow;
+}
+.chave ul.numeros li {
+  background-color: whitesmoke;
+}
+
+.numeros,
+.estrelas {
+  margin-bottom: 0;
+}

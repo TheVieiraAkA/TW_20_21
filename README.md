@@ -49,13 +49,18 @@
 
 #### Semana 10 - 26-04
 
-- &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - Jornadas Multimédia
-- &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :heavy_check_mark: php intro conslusao, inicio de login
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 10 - Jornadas Multimédia
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 10 - :heavy_check_mark: php intro conslusao, inicio de login
 
 #### Semana 11 - 02-05
 
-- &nbsp;&nbsp;&nbsp;&nbsp;PL 9 - :heavy_check_mark: php login conslusao
-- &nbsp;&nbsp;&nbsp;&nbsp;TP 9 - :white_large_square: php sessoes
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 11 - :heavy_check_mark: php login conslusao
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 11 - :heavy_check_mark: php sessoes
+
+#### Semana 12 - 10-05
+
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 12 - :heavy_check_mark: php Euromilhoes
+- &nbsp;&nbsp;&nbsp;&nbsp;TP 12 - :heavy_check_mark: php PDO and php files
 
 <!--
 checked  :heavy_check_mark:
