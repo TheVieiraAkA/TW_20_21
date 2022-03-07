@@ -4,7 +4,7 @@
 
 #### Semana 1 - 22-02
 
-- &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark:
+- &nbsp;&nbsp;&nbsp;&nbsp;PL 1 - :heavy_check_mark: intro setup inicial (git + node + .....)
 - &nbsp;&nbsp;&nbsp;&nbsp;TP 1 - :heavy_check_mark:
 
 #### Semana 2 - 01-03
